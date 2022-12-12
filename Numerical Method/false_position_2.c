@@ -39,5 +39,5 @@ int main()
 }
 float functions(float x)
 {
-	return((x*x)-(4*x)-10);
+	return(4*sin(x)-exp(x));
 }
