@@ -10,15 +10,15 @@ int main(){
 	printf("Input lower and higher limit: ");
 	scanf("%f%f", &a, &b);
 	h = (b - a)/2;
-	I = (h / 3) * ( f(a) + 4 * f(a+b) / 2 +f(b));
+	I = h / 3 * ( f(a) + 4* f((a+b) / 2) +f(b));
 	printf("The result is %f.", I);
 }
 // OUTPUT
 /*
 Input lower and higher limit: 1
-2
-The result is 11.166667.
+5
+The result is 160.000000.
 --------------------------------
-Process exited after 1.839 seconds with return value 0
+Process exited after 1.401 seconds with return value 0
 Press any key to continue . . .
 */
