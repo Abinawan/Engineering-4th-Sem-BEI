@@ -147,7 +147,7 @@ int insert_pos(int value)
     }
     else
     {
-        for (i = 0;i < position; i++)
+        for (i = 0;i < position-1; i++)
         {
             ptr = ptr -> next ;
             if(ptr == NULL)
